@@ -1,0 +1,110 @@
+ “боевой шаблон” и механику LABCORE с учётом glue-пар/троек, цикличности и матрицы переходов.
+
+---
+
+### **1. Шаблон glue\_config.json (core / cyclic / flex)**
+
+```json
+{
+  "core": [
+    [17, 33],
+    [9, 21],
+    [12, 21],
+    [21, 24],
+    [33, 35]
+  ],
+  "cyclic": [
+    {"pair": [9, 33], "cycle": [10, 11, 9]},       // повтор каждые 9–11 тиражей
+    {"pair": [23, 35], "cycle": [10, 12, 10, 11]},
+    {"pair": [12, 24], "cycle": [9, 12, 10]},
+    {"pair": [17, 35], "cycle": [9, 11, 9]}
+  ],
+  "flex": [
+    [9, 12], [24, 33], [19, 21], [1, 17], [21, 23],
+    [17, 21], [12, 33], [24, 35], [3, 17], [33, 37]
+  ]
+}
+```
+
+*(Пример — твои ТОП glue + cyclic пары с повторяемым паттерном по матрице переходов)*
+
+---
+
+### **2. Пример кода для анализа матрицы переходов**
+
+```python
+from collections import defaultdict
+import pandas as pd
+
+def get_cyclic_pairs(draw_history, min_cycle=9, max_cycle=12, min_count=4):
+    """Ищет пары с волновой цикличностью появления."""
+    last_seen = defaultdict(list)
+    for i, draw in enumerate(draw_history):
+        nums = set(draw)
+        for pair in combinations(nums, 2):
+            last_seen[tuple(sorted(pair))].append(i)
+    cyclic_pairs = []
+    for pair, indices in last_seen.items():
+        if len(indices) < min_count:
+            continue
+        intervals = [j-i for i, j in zip(indices[:-1], indices[1:])]
+        if all(min_cycle <= x <= max_cycle for x in intervals):
+            cyclic_pairs.append({"pair": list(pair), "cycle": intervals})
+    return cyclic_pairs
+```
+
+* **draw\_history** — список списков номеров по тиражам (последние 500 или сколько нужно)
+* Возвращает список “cyclic glue” — их можно сразу в “cyclic” слой glue\_config.json
+
+---
+
+### **3. Механика генератора LABCORE:**
+
+* **core** — ВСЕГДА включаются в генерацию, пары берутся как “основа” для построения.
+* **cyclic** — LABCORE сверяет: если для текущего тиража сработал “их” цикл, включает в генерацию!
+* **flex** — подключается только если нужен расширенный охват (кризисная фаза).
+
+---
+
+### **4. В генераторе (пример логики):**
+
+```python
+def build_combination(H, M, L, glue_config, current_draw_number):
+    # core glue — обязательны
+    core = glue_config['core']
+    # cyclic glue — проверяем, не настал ли “их” интервал для включения
+    cyclic = []
+    for item in glue_config['cyclic']:
+        intervals = item['cycle']
+        if current_draw_number % intervals[0] in intervals:  # простая проверка (можно усложнить)
+            cyclic.append(item['pair'])
+    # flex glue — подключаем если LABCORE в кризисе
+
+    # Сборка комбинации (пример — 1 core, 1 cyclic, остальные добираем из H/M/L)
+    comb = set(random.choice(core))
+    if cyclic:
+        comb.update(random.choice(cyclic))
+    while len(comb) < 6:
+        comb.add(random.choice(H + M + L))
+    return tuple(sorted(comb))
+```
+
+*(логика упрощена для примера — LABCORE может строить разные комбинации с разным числом glue-пар)*
+
+---
+
+### **5. Контроль дублей и метрик**
+
+* После генерации каждого пула проверяется уникальность.
+* Все комбинации логируются для дальнейшего анализа (LABCORE видит, кто реально сработал и когда).
+
+---
+
+## **ВЫВОД**
+
+* Система glue теперь “живая”:
+  — **Core** всегда даёт скелет комбинации,
+  — **Cyclic** добавляет “волну”,
+  — **Flex** спасает в случае кризиса.
+* Всё автоматизировано: LABCORE сам пересчитывает циклы и добавляет/выкидывает glue в зависимости от истории.
+
