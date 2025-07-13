@@ -1,0 +1,7 @@
+{
+    "min_last_seen_for_sleepy": 30,
+    "max_avg_interval_for_sleepy": 25,
+    "min_psw_for_sleepy": 0.3,
+    "sleepy_boost_if_active": 1.5,
+    "sleepy_re_evaluation_interval": 5
+}

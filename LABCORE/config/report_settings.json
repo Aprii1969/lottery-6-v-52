@@ -1,0 +1,6 @@
+{
+    "email": "your_email@example.com",
+    "draw_site_url": "http://www.lottery.com/results",
+    "check_time": "23:30",
+    "check_days_of_week": ["Среда", "Суббота"]
+}

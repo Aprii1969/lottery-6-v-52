@@ -1,0 +1,6 @@
+{
+    "long_term_avg_weight": 0.4,
+    "short_term_trend_weight": 0.3,
+    "deviation_sensitivity": 0.2,
+    "psw_calculation_interval": 10
+}
