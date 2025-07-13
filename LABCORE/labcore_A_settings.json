@@ -1,7 +1,0 @@
-{
-    "temperature": 0.7,
-    "diversity_factor": 1.2,
-    "consistency_threshold": 0.95,
-    "history_window": 50,
-    "prediction_boost": 1.05
-}
