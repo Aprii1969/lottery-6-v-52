@@ -1,7 +1,0 @@
-{
-    "aggressiveness": 1.5,
-    "exploratory_factor": 0.2,
-    "novelty_weight": 0.8,
-    "re_evaluation_interval": 3,
-    "dynamic_threshold_adjustment": true
-}
