@@ -1,9 +1,0 @@
-{
-    "min_5_plus_threshold": 1,
-    "adjustment_strength": 0.05,
-    "adjustment_history": [],
-    "target_5_match_percentage": 0.8,
-    "min_5_match_percentage": 0.15,
-    "target_6_match_percentage": 0.4,
-    "min_6_match_percentage": 0.02
-}
