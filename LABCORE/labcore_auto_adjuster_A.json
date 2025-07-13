@@ -1,0 +1,8 @@
+{
+    "adjustment_interval": 5,
+    "performance_metric": "accuracy",
+    "min_accuracy_threshold": 0.7,
+    "adjustment_strength": 0.05,
+    "last_adjustment_draw": 2520,
+    "adjustment_history": []
+}

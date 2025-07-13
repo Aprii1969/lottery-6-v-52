@@ -1,0 +1,418 @@
+{
+  "1": {
+    "last_seen": 2,
+    "avg_interval": 9.01,
+    "std_interval": 8.17,
+    "psw": 2.004,
+    "frequency": 177,
+    "zone": "Hot"
+  },
+  "2": {
+    "last_seen": 6,
+    "avg_interval": 9.25,
+    "std_interval": 8.09,
+    "psw": 0.321,
+    "frequency": 173,
+    "zone": "Hot"
+  },
+  "3": {
+    "last_seen": 12,
+    "avg_interval": 8.63,
+    "std_interval": 8.48,
+    "psw": -0.336,
+    "frequency": 186,
+    "zone": "Hot"
+  },
+  "4": {
+    "last_seen": 1,
+    "avg_interval": 8.86,
+    "std_interval": 8.3,
+    "psw": 3.428,
+    "frequency": 182,
+    "zone": "Hot"
+  },
+  "5": {
+    "last_seen": 0,
+    "avg_interval": 7.7,
+    "std_interval": 7.62,
+    "psw": 6.702,
+    "frequency": 209,
+    "zone": "Hot"
+  },
+  "6": {
+    "last_seen": 16,
+    "avg_interval": 8.46,
+    "std_interval": 9.3,
+    "psw": -0.502,
+    "frequency": 189,
+    "zone": "Hot"
+  },
+  "7": {
+    "last_seen": 5,
+    "avg_interval": 8.84,
+    "std_interval": 7.73,
+    "psw": 0.474,
+    "frequency": 181,
+    "zone": "Hot"
+  },
+  "8": {
+    "last_seen": 6,
+    "avg_interval": 8.88,
+    "std_interval": 8.72,
+    "psw": 0.268,
+    "frequency": 181,
+    "zone": "Hot"
+  },
+  "9": {
+    "last_seen": 0,
+    "avg_interval": 8.28,
+    "std_interval": 8.41,
+    "psw": 7.278,
+    "frequency": 195,
+    "zone": "Hot"
+  },
+  "10": {
+    "last_seen": 3,
+    "avg_interval": 8.53,
+    "std_interval": 7.62,
+    "psw": 1.133,
+    "frequency": 189,
+    "zone": "Hot"
+  },
+  "11": {
+    "last_seen": 8,
+    "avg_interval": 8.22,
+    "std_interval": 8.5,
+    "psw": -0.087,
+    "frequency": 194,
+    "zone": "Hot"
+  },
+  "12": {
+    "last_seen": 2,
+    "avg_interval": 8.31,
+    "std_interval": 7.22,
+    "psw": 1.77,
+    "frequency": 192,
+    "zone": "Hot"
+  },
+  "13": {
+    "last_seen": 0,
+    "avg_interval": 7.73,
+    "std_interval": 7.31,
+    "psw": 6.727,
+    "frequency": 206,
+    "zone": "Hot"
+  },
+  "14": {
+    "last_seen": 9,
+    "avg_interval": 8.19,
+    "std_interval": 8.06,
+    "psw": -0.181,
+    "frequency": 196,
+    "zone": "Hot"
+  },
+  "15": {
+    "last_seen": 4,
+    "avg_interval": 7.76,
+    "std_interval": 8.1,
+    "psw": 0.551,
+    "frequency": 207,
+    "zone": "Hot"
+  },
+  "16": {
+    "last_seen": 23,
+    "avg_interval": 8.52,
+    "std_interval": 7.31,
+    "psw": -0.645,
+    "frequency": 185,
+    "zone": "Hot"
+  },
+  "17": {
+    "last_seen": 18,
+    "avg_interval": 8.31,
+    "std_interval": 8.01,
+    "psw": -0.563,
+    "frequency": 190,
+    "zone": "Hot"
+  },
+  "18": {
+    "last_seen": 5,
+    "avg_interval": 8.44,
+    "std_interval": 7.31,
+    "psw": 0.407,
+    "frequency": 190,
+    "zone": "Hot"
+  },
+  "19": {
+    "last_seen": 1,
+    "avg_interval": 9.05,
+    "std_interval": 8.69,
+    "psw": 3.525,
+    "frequency": 178,
+    "zone": "Hot"
+  },
+  "20": {
+    "last_seen": 20,
+    "avg_interval": 8.96,
+    "std_interval": 7.82,
+    "psw": -0.573,
+    "frequency": 178,
+    "zone": "Hot"
+  },
+  "21": {
+    "last_seen": 46,
+    "avg_interval": 8.54,
+    "std_interval": 8.09,
+    "psw": -0.818,
+    "frequency": 184,
+    "zone": "Hot"
+  },
+  "22": {
+    "last_seen": 6,
+    "avg_interval": 8.64,
+    "std_interval": 10.1,
+    "psw": 0.235,
+    "frequency": 186,
+    "zone": "Hot"
+  },
+  "23": {
+    "last_seen": 13,
+    "avg_interval": 8.26,
+    "std_interval": 7.27,
+    "psw": -0.41,
+    "frequency": 194,
+    "zone": "Hot"
+  },
+  "24": {
+    "last_seen": 4,
+    "avg_interval": 8.48,
+    "std_interval": 9.2,
+    "psw": 0.696,
+    "frequency": 189,
+    "zone": "Hot"
+  },
+  "25": {
+    "last_seen": 3,
+    "avg_interval": 8.54,
+    "std_interval": 9.63,
+    "psw": 1.134,
+    "frequency": 189,
+    "zone": "Hot"
+  },
+  "26": {
+    "last_seen": 0,
+    "avg_interval": 9.03,
+    "std_interval": 8.21,
+    "psw": 8.028,
+    "frequency": 179,
+    "zone": "Hot"
+  },
+  "27": {
+    "last_seen": 12,
+    "avg_interval": 8.76,
+    "std_interval": 8.5,
+    "psw": -0.326,
+    "frequency": 183,
+    "zone": "Hot"
+  },
+  "28": {
+    "last_seen": 11,
+    "avg_interval": 9.6,
+    "std_interval": 9.25,
+    "psw": -0.2,
+    "frequency": 167,
+    "zone": "Hot"
+  },
+  "29": {
+    "last_seen": 7,
+    "avg_interval": 8.79,
+    "std_interval": 9.08,
+    "psw": 0.099,
+    "frequency": 180,
+    "zone": "Hot"
+  },
+  "30": {
+    "last_seen": 3,
+    "avg_interval": 8.37,
+    "std_interval": 7.91,
+    "psw": 1.092,
+    "frequency": 192,
+    "zone": "Hot"
+  },
+  "31": {
+    "last_seen": 2,
+    "avg_interval": 8.47,
+    "std_interval": 7.05,
+    "psw": 1.824,
+    "frequency": 190,
+    "zone": "Hot"
+  },
+  "32": {
+    "last_seen": 7,
+    "avg_interval": 9.28,
+    "std_interval": 7.86,
+    "psw": 0.16,
+    "frequency": 173,
+    "zone": "Hot"
+  },
+  "33": {
+    "last_seen": 0,
+    "avg_interval": 7.65,
+    "std_interval": 7.17,
+    "psw": 6.648,
+    "frequency": 211,
+    "zone": "Hot"
+  },
+  "34": {
+    "last_seen": 22,
+    "avg_interval": 8.51,
+    "std_interval": 7.41,
+    "psw": -0.63,
+    "frequency": 186,
+    "zone": "Hot"
+  },
+  "35": {
+    "last_seen": 6,
+    "avg_interval": 8.53,
+    "std_interval": 7.2,
+    "psw": 0.218,
+    "frequency": 188,
+    "zone": "Hot"
+  },
+  "36": {
+    "last_seen": 2,
+    "avg_interval": 9.06,
+    "std_interval": 9.59,
+    "psw": 2.019,
+    "frequency": 178,
+    "zone": "Hot"
+  },
+  "37": {
+    "last_seen": 0,
+    "avg_interval": 10.94,
+    "std_interval": 11.0,
+    "psw": 9.939,
+    "frequency": 148,
+    "zone": "Hot"
+  },
+  "38": {
+    "last_seen": 2,
+    "avg_interval": 8.7,
+    "std_interval": 7.68,
+    "psw": 1.9,
+    "frequency": 185,
+    "zone": "Hot"
+  },
+  "39": {
+    "last_seen": 15,
+    "avg_interval": 9.43,
+    "std_interval": 10.01,
+    "psw": -0.411,
+    "frequency": 167,
+    "zone": "Hot"
+  },
+  "40": {
+    "last_seen": 1,
+    "avg_interval": 9.92,
+    "std_interval": 10.52,
+    "psw": 3.96,
+    "frequency": 163,
+    "zone": "Hot"
+  },
+  "41": {
+    "last_seen": 1,
+    "avg_interval": 8.98,
+    "std_interval": 8.28,
+    "psw": 3.489,
+    "frequency": 179,
+    "zone": "Hot"
+  },
+  "42": {
+    "last_seen": 1,
+    "avg_interval": 7.6,
+    "std_interval": 8.0,
+    "psw": 2.802,
+    "frequency": 211,
+    "zone": "Hot"
+  },
+  "43": {
+    "last_seen": 1,
+    "avg_interval": 9.17,
+    "std_interval": 9.39,
+    "psw": 3.586,
+    "frequency": 176,
+    "zone": "Hot"
+  },
+  "44": {
+    "last_seen": 21,
+    "avg_interval": 8.44,
+    "std_interval": 7.84,
+    "psw": -0.617,
+    "frequency": 189,
+    "zone": "Hot"
+  },
+  "45": {
+    "last_seen": 3,
+    "avg_interval": 9.04,
+    "std_interval": 9.51,
+    "psw": 1.26,
+    "frequency": 176,
+    "zone": "Hot"
+  },
+  "46": {
+    "last_seen": 11,
+    "avg_interval": 8.35,
+    "std_interval": 7.93,
+    "psw": -0.304,
+    "frequency": 191,
+    "zone": "Hot"
+  },
+  "47": {
+    "last_seen": 5,
+    "avg_interval": 9.08,
+    "std_interval": 8.84,
+    "psw": 0.513,
+    "frequency": 176,
+    "zone": "Hot"
+  },
+  "48": {
+    "last_seen": 3,
+    "avg_interval": 8.12,
+    "std_interval": 7.05,
+    "psw": 1.031,
+    "frequency": 196,
+    "zone": "Hot"
+  },
+  "49": {
+    "last_seen": 5,
+    "avg_interval": 9.25,
+    "std_interval": 10.32,
+    "psw": 0.541,
+    "frequency": 170,
+    "zone": "Hot"
+  },
+  "50": {
+    "last_seen": 15,
+    "avg_interval": 8.01,
+    "std_interval": 6.93,
+    "psw": -0.499,
+    "frequency": 199,
+    "zone": "Hot"
+  },
+  "51": {
+    "last_seen": 20,
+    "avg_interval": 8.35,
+    "std_interval": 7.14,
+    "psw": -0.602,
+    "frequency": 190,
+    "zone": "Hot"
+  },
+  "52": {
+    "last_seen": 5,
+    "avg_interval": 8.41,
+    "std_interval": 7.87,
+    "psw": 0.401,
+    "frequency": 191,
+    "zone": "Hot"
+  }
+}

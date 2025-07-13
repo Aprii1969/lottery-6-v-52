@@ -1,0 +1,7 @@
+{
+    "b6_boost_factor": 1.8,
+    "b6_min_frequency_threshold": 0.05,
+    "b6_last_seen_decay": 0.9,
+    "b6_correlation_strength": 0.7,
+    "b6_dynamic_zones_priority": ["Hot", "Warm"]
+}

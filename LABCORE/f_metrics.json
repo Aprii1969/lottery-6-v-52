@@ -1,0 +1,7 @@
+{
+    "F5_threshold": 0.8,
+    "F20_min_occurrence": 3,
+    "F5_influence_factor": 1.2,
+    "F20_boost_factor": 1.1,
+    "PSW_relevance_threshold": 0.6
+}

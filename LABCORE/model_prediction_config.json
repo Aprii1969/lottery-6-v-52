@@ -1,0 +1,6 @@
+{
+    "xgboost_active": false,
+    "lightgbm_active": true,
+    "catboost_active": false,
+    "num_draws_for_training": 100
+}
